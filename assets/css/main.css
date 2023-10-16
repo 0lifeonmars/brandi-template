@@ -1,0 +1,74 @@
+@import url(min/fonts.min.css);
+@import url(min/reset.min.css);
+@import url(min/keyframes.min.css);
+@import url(min/style.min.css);
+:root {
+    --color__primary: #0EB493;
+    --color__white: #FFFFFF;
+    --color__black: #191919;
+    --color__lightblue: #32B0EE;
+    --color__darkblue: #1B5077;
+    --color__grey: #CCCCCC;
+    --color__red: #CC0000;
+
+    --color__primary_shade-01: #0da284;
+    --color__primary_shade-02: #0b9076;
+    --color__primary_shade-03: #0a7e67;
+    --color__primary_shade-04: #086c58;
+    --color__primary_shade-05: #075a4a;
+    --color__primary_shade-06: #06483b;
+    --color__primary_shade-07: #04362c;
+    --color__primary_shade-08: #03241d;
+    --color__primary_shade-09: #01120f;
+
+    --color__grey_shade-01: #b8b8b8;
+    --color__grey_shade-02: #a3a3a3;
+    --color__grey_shade-03: #8f8f8f;
+    --color__grey_shade-04: #7a7a7a;
+    --color__grey_shade-05: #666666;
+    --color__grey_shade-06: #525252;
+    --color__grey_shade-07: #3d3d3d;
+    --color__grey_shade-08: #292929;
+    --color__grey_shade-09: #141414;
+
+    --color__primary_tint-01: #26bc9e;
+    --color__primary_tint-02: #3ec3a9;
+    --color__primary_tint-03: #56cbb3;
+    --color__primary_tint-04: #6ed2be;
+    --color__primary_tint-05: #87dac9;
+    --color__primary_tint-06: #9fe1d4;
+    --color__primary_tint-07: #b7e9df;
+    --color__primary_tint-08: #cff0e9;
+    --color__primary_tint-09: #e7f8f4;
+
+    --color__grey_tint-01: #747474;
+    --color__grey_tint-02: #838383;
+    --color__grey_tint-03: #939393;
+    --color__grey_tint-04: #a2a2a2;
+    --color__grey_tint-05: #b2b2b2;
+    --color__grey_tint-06: #c1c1c1;
+    --color__grey_tint-07: #d1d1d1;
+    --color__grey_tint-08: #e0e0e0;
+    --color__grey_tint-09: #f0f0f0;
+
+    --color__trans_header: rgb(16 22 54 / 50%);
+    --color__trans_black-01: rgb(6 32 51 / 80%);
+    --color__trans_primary-01: rgb(14 180 147 / 90%);
+    --color__trans_grey-01: rgb(41 41 41 / 60%);
+
+    --bgImg__home: url(../../images/backgrounds/bg__home.webp);
+    --bgImg__facts: url(../../images/backgrounds/bg__facts.webp);
+
+    --font__nunito: 'Nunito Sans', sans-serif;
+
+    --width: 1280px;
+    --gap: 12px;
+    --padding: 16px;
+    --radius: 10px;
+    --borderWidth: 1.5px;
+    --border: solid var(--borderWidth);
+    --transitionTime: 700ms;
+
+    --animation__slideInDown: slideInDown var(--transitionTime) both;
+    --animation__slideOutUp: slideOutUp var(--transitionTime) both;
+}
